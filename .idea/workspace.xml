@@ -7,283 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38131239-7ac0-432c-a68c-456fe2b353da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SSMExample_war_archive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/50b1fc9a-8e3e-4b71-9318-89d76acf3727.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SSMExample.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/ScoreController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentProController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/converter/CustomDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionResover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/homeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/indexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/validation/ValidGroupByUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/interceptor/LanguageInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Score.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScorePro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentPro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/UserExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/ScoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentProService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/ScoreServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentProServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/runGeneratorMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/messages_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/validationMessageSource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/dispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Score.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/User.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page5.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/siteInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/home_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/h2Bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/menuBg1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/menuBg2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/searchBg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/META-INF/SSMExample.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/ScoreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/StudentProController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/converter/CustomDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/exception/ExceptionByUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/exception/ExceptionResover.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/homeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/indexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/validation/ValidGroupByUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/interceptor/LanguageInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/ScoreMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentProMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/Score.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScorePro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentPro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/ScoreService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/StudentProService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/ScoreServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/StudentProServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/messages_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/validationMessageSource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/spring/dispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/Score.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/Student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/User.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/test/runGeneratorMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/cdi-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-lang3-3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/hibernate-validator-6.1.0.Alpha4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-annotations-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-databind-2.9.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jettison-1.4.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/json-20180813.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jsr250-api-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-artifact-3.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-model-3.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-plugin-api-3.5.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-generator-core-1.3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-generator-maven-plugin-1.3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-spring-2.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/org.eclipse.sisu.inject-0.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/org.eclipse.sisu.plexus-0.3.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-classworlds-2.5.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-utils-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/slf4j-api-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/slf4j-log4j12-1.7.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-aspects-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xpp3_min-1.1.3.4.O.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xstream-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page5.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page6.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/siteInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/regist.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/css/home_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/h2Bg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/menuBg1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/menuBg2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/searchBg.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/js/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SSMExample.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/ScoreController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/StudentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/StudentProController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/converter/CustomDateConverter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/exception/ExceptionByUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/exception/ExceptionResover.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/homeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/indexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/validation/ValidGroupByUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/interceptor/LanguageInterceptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/ScoreMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentProMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Score.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScorePro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentKey.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentPro.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$Criteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$Criterion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/ScoreService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentProService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/ScoreServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/StudentProServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/messages/messages_en.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/messages/messages_zh.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/messages/validationMessageSource.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spring/dispatcherServlet-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/Score.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/Student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sql/User.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/test/runGeneratorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -331,17 +57,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="912">
               <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="816">
               <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -349,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="816">
               <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="31" />
             </state>
           </provider>
@@ -378,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/qa.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/showAll.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserInfoServiceImpl.java" />
@@ -407,7 +155,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/ScoreController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/messages/validationMessageSource.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" />
-        <option value="$PROJECT_DIR$/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page4.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page5.jsp" />
@@ -429,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp" />
+        <option value="$PROJECT_DIR$/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
       </list>
     </option>
   </component>
@@ -522,6 +271,13 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
@@ -723,8 +479,17 @@
       <workItem from="1560777734855" duration="1543000" />
       <workItem from="1560779622788" duration="1808000" />
       <workItem from="1560781474295" duration="65000" />
-      <workItem from="1560816908644" duration="9930000" />
+      <workItem from="1560816908644" duration="13165000" />
+      <workItem from="1560836245151" duration="69000" />
     </task>
+    <task id="LOCAL-00001" summary="IDEA 搭建的 SSM 项目 ： 学生信息及成绩管理系统">
+      <created>1560829565939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560829565940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -736,12 +501,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87144000" />
+    <option name="totallyTimeSpent" value="90448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31770045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -765,7 +530,7 @@
       <window_info anchor="bottom" id="Messages" order="13" weight="0.7003425" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="bottom" id="Database Changes" order="15" />
-      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.90068495" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -820,15 +585,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This system is based on the SSM framework for student information and performance management internal testing system, used to calculate student information and grades, such as: name, age, gender, student number and scores of various subjects." />
-    <option name="LAST_COMMIT_MESSAGE" value="This system is based on the SSM framework for student information and performance management internal testing system, used to calculate student information and grades, such as: name, age, gender, student number and scores of various subjects." />
+    <MESSAGE value="IDEA 搭建的 SSM 项目 ： 学生信息及成绩管理系统" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDEA 搭建的 SSM 项目 ： 学生信息及成绩管理系统" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/src/com/ssm/mapper/StudentMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentKey.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -948,13 +750,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/sql/User.sql">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/homeController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1173,24 +968,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="912">
           <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="816">
           <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
