@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SSMExample:war archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/SSMExample_war_archive</output-path>
+    <root id="archive" name="SSMExample_war archive.war">
+      <element id="artifact" artifact-name="SSMExample:war" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSMExample:war archive" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38131239-7ac0-432c-a68c-456fe2b353da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SSMExample_war_archive.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/50b1fc9a-8e3e-4b71-9318-89d76acf3727.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SSMExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/ScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentProController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/converter/CustomDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionByUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionResover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/homeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/indexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/validation/ValidGroupByUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/interceptor/LanguageInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Score.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScoreExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScorePro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentPro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/UserExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/ScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentProService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/ScoreServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentProServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/runGeneratorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/messages_zh.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/messages/validationMessageSource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Score.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/Student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sql/User.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page6.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/siteInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/home_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/h2Bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/menuBg1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/menuBg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/images/searchBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/META-INF/SSMExample.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/ScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/StudentProController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/converter/CustomDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/exception/ExceptionByUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/exception/ExceptionResover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/homeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/indexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/controller/validation/ValidGroupByUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/interceptor/LanguageInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/ScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentProMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/ScorePro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/StudentPro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/ScoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/StudentProService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/ScoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/StudentProServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/com/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/messages_zh.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/messages/validationMessageSource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/spring/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/Score.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/Student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/sql/User.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/classes/test/runGeneratorMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/aspectjweaver-1.9.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/c3p0-0.9.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/cdi-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-lang3-3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/hibernate-validator-6.1.0.Alpha4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-annotations-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-core-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jackson-databind-2.9.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/javax.inject-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jettison-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/json-20180813.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jsr250-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-artifact-3.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-model-3.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/maven-plugin-api-3.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mchange-commons-java-0.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-3.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-generator-core-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-generator-maven-plugin-1.3.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mybatis-spring-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/mysql-connector-java-8.0.16.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/org.eclipse.sisu.inject-0.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/org.eclipse.sisu.plexus-0.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-classworlds-2.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-component-annotations-1.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/plexus-utils-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/slf4j-api-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/slf4j-log4j12-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-aspects-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xpp3_min-1.1.3.4.O.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/lib/xstream-1.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/page6.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/home/siteInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/views/regist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/css/home_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/h2Bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/menuBg1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/menuBg2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/images/searchBg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/SSMExample/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/SSMExample.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/ScoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/StudentProController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/converter/CustomDateConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/exception/ExceptionByUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/exception/ExceptionResover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/homeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/indexController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/validation/ValidGroupByUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/interceptor/LanguageInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/ScoreMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/ScoreMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentProMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/StudentProMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Score.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScoreExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/ScorePro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentKey.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/StudentPro.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/UserExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/ScoreService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentProService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/ScoreServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/StudentProServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages/messages_zh.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/messages/validationMessageSource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/dispatcherServlet-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/Score.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/Student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sql/User.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/test/runGeneratorMain.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="develop" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="develop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="develop" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="develop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="silly" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/qa.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/showAll.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/home.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/siteInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/homeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/hone_style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/siteInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/script.js" />
+        <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentScoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentScoreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentScoreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentScorePro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentPro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentScoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/src/com/ssm/mapper/ScoreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/ScoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/messages/validationMessageSource.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java" />
+        <option value="$PROJECT_DIR$/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page4.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page5.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page6.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScorePro.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentProService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentProServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page3.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/ScoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/impl/ScoreServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentProController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Java\maven\repository" />
+        <option name="mavenHome" value="D:/Java/maven" />
+        <option name="userSettingsFile" value="D:\Java\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMExample Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SSMExample Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="480" />
+    <option name="y" value="71" />
+    <option name="width" value="673" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSMExample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSMExample" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.43103448" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ssm.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\SSMExample\src\main\resources\sql" />
+      <recent name="D:\develop\SSMExample\src\main\java\com\ssm\mapper" />
+      <recent name="D:\develop\SSMExample\src\main\java\com\ssm\pojo" />
+      <recent name="D:\develop\SSMExample\src\main\webapp\WEB-INF\views\home" />
+      <recent name="D:\develop\SSMExample\src\main\webapp\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\SSMExample\src\main\resources\sql" />
+      <recent name="D:\develop\SSMExample\src\main\java\com\ssm\controller" />
+      <recent name="D:\develop\SSMExample\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\develop\SSMExample\src\main\webapp" />
+      <recent name="D:\develop\SSMExample\src\main\webapp\static\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Run Tomcat">
+    <configuration name="runGeneratorMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.runGeneratorMain" />
+      <module name="SSMExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SSMExample:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SSMExample_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51901" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SSMExample:war" />
+          <artifact name="SSMExample:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.runGeneratorMain" />
+      <item itemvalue="Tomcat Server.Run Tomcat" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38131239-7ac0-432c-a68c-456fe2b353da" name="Default Changelist" comment="" />
+      <created>1560318887072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560318887072</updated>
+      <workItem from="1560318890979" duration="5239000" />
+      <workItem from="1560324481099" duration="88000" />
+      <workItem from="1560324576694" duration="813000" />
+      <workItem from="1560386245726" duration="789000" />
+      <workItem from="1560387082156" duration="10990000" />
+      <workItem from="1560398970954" duration="11314000" />
+      <workItem from="1560472403588" duration="2439000" />
+      <workItem from="1560518036105" duration="1082000" />
+      <workItem from="1560681088654" duration="1214000" />
+      <workItem from="1560730459656" duration="31000" />
+      <workItem from="1560733087653" duration="3000" />
+      <workItem from="1560733096699" duration="1794000" />
+      <workItem from="1560734931643" duration="8736000" />
+      <workItem from="1560745731594" duration="29266000" />
+      <workItem from="1560777734855" duration="1543000" />
+      <workItem from="1560779622788" duration="1808000" />
+      <workItem from="1560781474295" duration="65000" />
+      <workItem from="1560816908644" duration="9930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Main_test - 2019.06.17 at 11h 29m 37s.xml">
+      <configuration name="Main.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Main_test - 2019.06.17 at 11h 29m 50s.xml">
+      <configuration name="Main.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87144000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35958904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.94863015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.94863015" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.7003425" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.35958904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.94863015" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.94863015" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.7003425" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This system is based on the SSM framework for student information and performance management internal testing system, used to calculate student information and grades, such as: name, age, gender, student number and scores of various subjects." />
+    <option name="LAST_COMMIT_MESSAGE" value="This system is based on the SSM framework for student information and performance management internal testing system, used to calculate student information and grades, such as: name, age, gender, student number and scores of various subjects." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/src/com/ssm/mapper/StudentMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentExample.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentKey.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/src/com/ssm/mapper/ScoreMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScoreExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/ScoreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/validation/ValidGroupByUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/messages/validationMessageSource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="26" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/ScoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="32" column="41" lean-forward="true" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/interceptor/LanguageInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="84" lean-forward="true" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionByUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/exception/ExceptionResover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/converter/CustomDateConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/User.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/homeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page4.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="59" column="62" selection-start-line="59" selection-start-column="62" selection-end-line="59" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/indexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page5.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="74" column="7" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="74" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page6.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="61" column="62" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/StudentPro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/StudentProService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/ScorePro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="57" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentProMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentProServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page3.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/ScoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/impl/ScoreServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="52" column="59" selection-start-line="52" selection-start-column="59" selection-end-line="52" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sql/Score.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-803" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home/page1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/StudentProController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1313#1329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/regist.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SSMExample:war archive</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43103448" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43103448" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SSMExample</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43103448" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.43103448" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

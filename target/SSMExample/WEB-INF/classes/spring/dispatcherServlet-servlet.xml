@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd
+                           http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--Spring MVC 的配置文件，包含网站跳转的控制-->
+    <context:component-scan base-package="com.ssm" use-default-filters="false">
+        <!--只扫描控制器-->
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 释放静态资源-->
+    <mvc:resources mapping="/js/**" location="/static/js/"/>
+    <mvc:resources mapping="/css/**" location="/static/css/"/>
+    <mvc:resources mapping="/images/**" location="/static/images/"/>
+    <mvc:resources mapping="/music/**" location="/static/music/"/>
+
+    <!--Spring mvc不能处理的请求交给服务器-->
+    <mvc:default-servlet-handler/>
+
+    <!--支持注解，校验，快捷ajax请求等，映射动态请求-->
+    <mvc:annotation-driven conversion-service="conversionService" validator="validator"/>
+
+    <!-- 自定义参数绑定 -->
+    <bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+        <!-- 转换器 -->
+        <property name="converters">
+            <list>
+                <!-- 日期类型转换 -->
+                <bean class="com.ssm.controller.converter.CustomDateConverter"/>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 校验器，配置validator -->
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+        <property name="validationMessageSource" ref="validationMessageSource"/>
+    </bean>
+
+    <!-- 配置validationMessageSource -->
+    <bean id="validationMessageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <!-- 指定校验信息的资源文件的基本文件名称，不包括后缀，后缀默认是properties -->
+        <property name="basenames">
+            <list>
+                <value>classpath:messages.validationMessageSource</value>
+            </list>
+        </property>
+        <!-- 指定文件的编码 -->
+        <property name="fileEncodings" value="utf-8"/>
+        <!-- 对资源文件内容缓存的时间，单位秒 -->
+        <property name="cacheSeconds" value="120"/>
+    </bean>
+
+    <!-- 多部分文件上传 -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize" value="104857600" />
+        <property name="maxInMemorySize" value="4096" />
+        <property name="defaultEncoding" value="UTF-8"/>
+    </bean>
+
+    <!-- 存储区域设置信息
+         SessionLocaleResolver类通过一个预定义会话名将区域化信息存储在会话中。
+     -->
+    <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver" />
+
+    <!-- 国际化资源文件 -->
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basename" value="classpath:messages.messages" />
+        <!-- 如果在国际化资源文件中找不到对应代码的信息，就用这个代码作为名称  -->
+        <property name="useCodeAsDefaultMessage" value="true" />
+    </bean>
+
+    <mvc:interceptors>
+        <!-- 该拦截器通过名为”lang”的参数来拦截HTTP请求，使其重新设置页面的区域化信息 -->
+        <!-- <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />  -->
+        <bean class="com.ssm.interceptor.LanguageInterceptor">
+            <property name="paramName" value="lang" />
+        </bean>
+    </mvc:interceptors>
+
+    <!--全局异常处理器
+        只要实现HandlerExceptionResolver接口的异常就是全局异常
+    -->
+    <bean class="com.ssm.controller.exception.ExceptionResover"/>
+
+</beans>

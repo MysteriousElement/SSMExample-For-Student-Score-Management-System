@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mapper.StudentProMapper">
+
+    <resultMap id="StudentAndScore" type="com.ssm.pojo.StudentPro">
+        <id column="sid" property="sid"/>
+        <result column="sname" property="sname"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="sno" property="sno"/>
+        <!-- 关联对象 -->
+        <collection property="score" ofType="com.ssm.pojo.Score">
+            <id column="id" property="id"/>
+            <result column="sno" property="sno"/>
+            <result column="sclass" property="sclass"/>
+            <result column="subject" property="subject"/>
+            <result column="score" property="score"/>
+        </collection>
+    </resultMap>
+    <select id="selectAll" resultMap="StudentAndScore">
+        select Student.*,Score.* from Student,Score where Student.sno = Score.sno
+    </select>
+
+
+    <resultMap id="ScoreAndStudent" type="com.ssm.pojo.ScorePro">
+        <id column="id" property="id"/>
+        <result column="sno" property="sno"/>
+        <result column="sclass" property="sclass"/>
+        <result column="subject" property="subject"/>
+        <result column="score" property="score"/>
+    <!-- 关联对象 -->
+    <collection property="student" ofType="com.ssm.pojo.Student">
+        <id column="sid" property="sid"/>
+        <result column="sname" property="sname"/>
+        <result column="sex" property="sex"/>
+        <result column="age" property="age"/>
+        <result column="sno" property="sno"/>
+    </collection>
+</resultMap>
+    <select id="selectAllBySubject" parameterType="com.ssm.pojo.ScorePro" resultMap="ScoreAndStudent">
+        select Student.*,Score.* from Student,Score where Student.sno = Score.sno and Score.subject = #{subject}
+    </select>
+</mapper>
